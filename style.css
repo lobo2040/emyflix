@@ -21,8 +21,12 @@ h1 {
   margin-bottom: 10px;
 }
 
-h3, p {
+h3, p, h4 {
   margin: 20px;
+}
+
+h4 {
+  font-weight: bold;
 }
 
 .carrossel {
