@@ -101,3 +101,16 @@ h4 {
 .filme:hover video {
   display: block;
 }
+
+footer {
+  background-color: #e50914;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  font-size: 14px;
+}
+
+footer p {
+  margin: 5px 0;
+}
