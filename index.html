@@ -17,8 +17,9 @@
     <section>
         <h3>Olá, seja bem-vindo ao Emyflix</h3>
         <p>Aqui você encontra alguns dos filmes e séries mais marcantes e épicos que o mundo já viu!<br>
-        Neste cantinho especial, compartilho resumos, cenas emocionantes e, claro, o título de cada obra que me conquistou. Prepare a pipoca e aproveite a jornada! 🍿🎬</p>
+        Neste cantinho especial, compartilho  resumos, cenas emocionantes e, claro, o título de cada obra que me conquistou. Prepare a pipoca e aproveite a jornada! 🍿🎬</p>
     </section>
+
     <div class="carrossel" id="carrossel">
       <!-- FILME 1 -->
       <div class="filme">
@@ -43,12 +44,6 @@
         <img src="imagens/Tartarugas até lá embaixo.jpeg" alt="Tartarugas até lá embaixo">
         <video src="videos/Tartarugas até lá embaixo.mp4" controls preload="metadata" playsinline></video>
       </div>
-
-      <!--<div class="filme">
-        <img src="imagens/a lista da minha vida.jpeg" alt="a lista da minha vida">
-        <video src="videos/a lista da minha vida.mp4" controls preload="metadata" playsinline></video>
-      </div>-->
-      <!-- Adicione mais filmes copiando o bloco acima -->
     </div>
   
 
@@ -78,6 +73,45 @@
         Aza Holmes é uma adolescente que vive uma batalha diária com pensamentos obsessivos e ansiedade por causa do TOC (Transtorno Obsessivo-Compulsivo). Ela reencontra Davis, um antigo amigo. 
         No meio disso tudo, ela precisa enfrentar os labirintos da própria mente. 
       </p>
+    </section>
+
+    <section>
+     <h3>📩 Me indica um filme ou série!</h3>
+     <form id="formulario" style="margin: 20px;">
+     <label for="indicacao">Nome do filme ou série:</label><br>
+     <input type="text" id="indicacao" name="indicacao" placeholder="Digite aqui" required style="padding: 8px; margin: 10px 0; width: 300px;"><br>
+     <button type="submit" style="padding: 8px 16px; background-color: #e50914; color: white; border: none; cursor: pointer;">Enviar</button>
+     </form>
+    </section>
+
+    <section>
+     <h3>Minhas notas dos filmes</h3>
+     <table class="tabela-notas">
+      <thead>
+       <tr>
+         <th>Filme</th>
+         <th>Nota</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+         <td>Para Todos os Garotos</td>
+         <td>9.0</td>
+        </tr>
+        <tr>
+         <td>A Cinco Passos de Você</td>
+         <td>10.0</td>
+        </tr>
+        <tr>
+         <td>Sua Culpa</td>
+         <td>8.5</td>
+        </tr>
+        <tr>
+         <td>Tartarugas Até lá Embaixo</td>
+         <td>9.5</td>
+        </tr>
+      </tbody>
+      </table>
     </section>
   </main>
 
