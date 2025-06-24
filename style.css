@@ -1,15 +1,16 @@
-* {
+/* Remove os espaçamentos padrões do navegador */
+*{
   margin: 0px;
   padding: 0;
   box-sizing: border-box;
 }
-
+/* Define a fonte padrão do site */
 body {
   font-family: Arial, sans-serif;
   background-color: #111;
   color: #fff;
 }
-
+/* abeçalho com uma cor vermelha */
 header {
   padding: 20px;
   background-color: #e50914;
@@ -24,11 +25,11 @@ h1 {
 h3, p, h4 {
   margin: 20px;
 }
-
+/* texto em negrito */
 h4 {
   font-weight: bold;
 }
-
+/* Cria uma tabela escura centralizada com largura de 80% da tela. */
 .tabela-notas {
   width: 80%;
   margin: 20px auto;
@@ -38,7 +39,7 @@ h4 {
   text-align: center;
   border: 1px solid #444;
 }
-
+/* Adiciona espaçamento interno nas células da tabela */
 .tabela-notas th,
 .tabela-notas td {
   padding: 12px;
@@ -49,17 +50,16 @@ h4 {
   background-color: #e50914;
   font-weight: bold;
 }
-
+/* Quando o mouse passa por cima de uma linha da tabela. */
 .tabela-notas tr:hover {
   background-color: #333;
 }
 
-.carrossel {
+#carrossel {
   display: flex;
   overflow-x: auto;
   gap: 20px;
   padding: 30px;
-  scroll-behavior: smooth;
 }
 
 .filme {
@@ -88,7 +88,6 @@ h4 {
   display: none;
 }
 
-/* Quando o mouse passa */
 .filme:hover {
   transform: scale(1.2);
   z-index: 10;
